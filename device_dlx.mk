@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sbin/choice_fn:recovery/root/sbin/choice_fn \
     $(LOCAL_PATH)/sbin/offmode_charging:recovery/root/sbin/offmode_charging \
     $(LOCAL_PATH)/sbin/detect_key:recovery/root/sbin/detect_key \
+    $(LOCAL_PATH)/fstab.dlx:recovery/root/fstab.dlx \
 
 $(call inherit-product, build/target/product/full.mk)
 
